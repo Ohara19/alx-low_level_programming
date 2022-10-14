@@ -1,12 +1,13 @@
 #include <stdio.h>
+
 /**
- * main - funtion puts
- *
- * return: 0
- */
+ *  *  * main - Entry point
+ *   *Description: prints "\"Programming is like building a multilingual puzzle"
+ *    *Return: 0
+ *     */
 
 int main(void)
 {
-	puts("\"programming is like building a multilingual puzzle");
-	return (0);
+			puts("\"Programming is like building a multilingual puzzle");
+						return (0);
 }
