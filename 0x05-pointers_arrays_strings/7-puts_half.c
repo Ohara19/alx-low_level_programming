@@ -1,17 +1,27 @@
 #include "main.h"
-/**
- * puts2 - prints every other character of a string
- *
- * @str: char to check
- *
- * Return: 0 is success
- */
-void puts2(char *str)
-{
-	int string;
 
-	for (string = 0; str[string] != '\0'; string++)
-	if (string % 2 == 0)
-		_putchar(str[string]);
+/**
+ * puts_half - prints half of a string.
+ * @str: input string.
+ * Return: no return.
+ */
+void puts_half(char *str)
+{
+	int count = 0, i;
+
+	while (count >= 0)
+	{
+		if (str[count] == '\0')
+			break;
+		count++;
+	}
+
+	if (count % 2 == 1)
+		i = count / 2;
+	else
+		i = (count - 1) / 2;
+
+	for (i++; i < count; i++)
+		_putchar(str[i]);
 	_putchar('\n');
 }
