@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * swap_int - swaps the value of int a and int b
-* Owned by Ibro 
+* Owned by Ibro
 * @a: first int
 * @b: second int
 * Return 0
