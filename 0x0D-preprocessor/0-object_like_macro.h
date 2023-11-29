@@ -7,4 +7,3 @@
 /* THREE_FUNCTION_LIKE_MACRO_H */
 
 #endif
-
