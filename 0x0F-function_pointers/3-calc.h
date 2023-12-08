@@ -1,15 +1,15 @@
 #ifndef CALC_H
 #define CALC_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+/*
+ * desc: header file cointaining all structures and
+ *       prototypes used by the 3-main.c program
+ */
 
 /**
- * struct op - Struct op
- *
- * @op: The operator
- * @f: The function associated
+ * struct op - a struct op
+ * @op: the operator
+ * @f: the associated function
  */
 typedef struct op
 {
@@ -24,4 +24,4 @@ int op_div(int a, int b);
 int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
-#endif /* CALC_H */
+#endif
